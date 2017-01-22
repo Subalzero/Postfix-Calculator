@@ -15,11 +15,6 @@ public class Postfix {
 		 * added every new element. This will be useful whenever an infix
 		 * expression has an operand with 2 or more digits.
 		 */
-		
-		/*
-		 * The input infix String with '.' decimal must be preceded with a number.
-		 * Otherwise, the method will generate an incorrect pattern.
-		 */
     	
         Stack<Character> s = new Stack<>();
         s.push('\0');
